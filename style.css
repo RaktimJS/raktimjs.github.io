@@ -693,11 +693,10 @@ body {
 .content {
   flex: 1;
   overflow-y: auto;
-  padding: 50px 100px 0 100px;
+  padding: 100px 100px 0 100px;
 }
-
 .texts {
-  padding-bottom: 100px;
+  margin-bottom: 80px;
   text-align: justify;
 }
 
@@ -768,12 +767,18 @@ body {
     grid-template-columns: 1fr 1fr;
   }
   .content {
-    padding: 100px 20px 0 20px;
+    padding: 20px 20px 0 20px;
   }
   .popup {
     width: 100vw;
     height: 100vh;
     border-radius: 0;
+  }
+  .texts {
+    margin-bottom: 20px;
+  }
+  .inPopup {
+    margin-bottom: 20px;
   }
 }
 

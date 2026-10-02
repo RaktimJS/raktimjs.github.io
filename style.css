@@ -27,12 +27,17 @@
 
 
 /* Foundation Styling */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--paper);
     color: var(--ink);
     font-family: var(--font-body);
     font-size: 18px;
     line-height: 1.7;
+    /* scroll-behavior: smooth; */
 }
 
 body::after {
